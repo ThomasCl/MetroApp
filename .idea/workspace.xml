@@ -1,14 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63f45679-e0d3-45b2-b9d6-ea6dd0674c1f" name="Changes" comment="" />
+    <list default="true" id="63f45679-e0d3-45b2-b9d6-ea6dd0674c1f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/Metrocard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/database/MetrocardDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/database/loadSaveStrategies/LoadSaveStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/database/loadSaveStrategies/LoadSaveStrategyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/database/loadSaveStrategies/MetrocardsTekstLoadSaveStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/database/loadSaveStrategies/MetrocarsExcelLoadSaveStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/database/utilities/ExcelLoadSaveTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/database/utilities/TekstLoadSaveTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2IB5lRPYRvQKUr6fvXXr8CG5ysj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -20,10 +43,42 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/claes/School/OOO/MetroApp"
+    "last_opened_file_path": "C:/Users/claes/School/OOO/MetroApp",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\claes\School\OOO\MetroApp\src" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="model" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="MetroMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="application.MetroMain" />
+      <module name="MetroApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MetroMain" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -34,6 +89,7 @@
       <updated>1669642289513</updated>
       <workItem from="1669642290967" duration="239000" />
       <workItem from="1669642659909" duration="103000" />
+      <workItem from="1669642937438" duration="449000" />
     </task>
     <servers />
   </component>
