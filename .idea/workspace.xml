@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63f45679-e0d3-45b2-b9d6-ea6dd0674c1f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Metrocard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/database/MetrocardDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/database/loadSaveStrategies/LoadSaveStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/database/loadSaveStrategies/LoadSaveStrategyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/database/loadSaveStrategies/MetrocardsTekstLoadSaveStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/database/loadSaveStrategies/MetrocarsExcelLoadSaveStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/database/utilities/ExcelLoadSaveTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/database/utilities/TekstLoadSaveTemplate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MetroApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MetroApp.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,10 +36,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/claes/School/OOO/MetroApp",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "last_opened_file_path": "C:/Users/claes/School/OOO/jxl-2.6.12(4).jar",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -89,7 +80,7 @@
       <updated>1669642289513</updated>
       <workItem from="1669642290967" duration="239000" />
       <workItem from="1669642659909" duration="103000" />
-      <workItem from="1669642937438" duration="449000" />
+      <workItem from="1669642937438" duration="1273000" />
     </task>
     <servers />
   </component>
