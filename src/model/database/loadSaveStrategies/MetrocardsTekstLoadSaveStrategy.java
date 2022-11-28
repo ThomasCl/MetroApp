@@ -1,4 +1,15 @@
 package model.database.loadSaveStrategies;
 
-public class MetrocardsTekstLoadSaveStrategy {
+import model.database.utilities.TekstLoadSaveTemplate;
+
+public class MetrocardsTekstLoadSaveStrategy extends TekstLoadSaveTemplate implements LoadSaveStrategy{
+    @Override
+    public void load() {
+
+    }
+
+    @Override
+    public void save() {
+
+    }
 }
