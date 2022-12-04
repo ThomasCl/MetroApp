@@ -2,12 +2,14 @@ package model.database.utilities;
 
 import jxl.read.biff.BiffException;
 import jxl.write.WriteException;
+import model.Metrocard;
 
 import java.io.*;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.TreeMap;
 
 public abstract class ExcelLoadSaveTemplate<K,V> {
     public final Map<K,V> load(File file) throws IOException, BiffException {
@@ -20,7 +22,7 @@ public abstract class ExcelLoadSaveTemplate<K,V> {
         }
         return returnmap;
     }
-    public void write(File file, Map<K,V> writeMap) throws BiffException, WriteException, IOException {
+    public void save(File file, Map<K,V> writeMap) throws BiffException, WriteException, IOException {
         ArrayList<ArrayList<String>> total = new ArrayList<>();
         for(K k: writeMap.keySet()){
             total.add(maakToken(writeMap.get(k)));

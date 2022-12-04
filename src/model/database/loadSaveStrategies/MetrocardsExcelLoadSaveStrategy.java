@@ -3,14 +3,12 @@ package model.database.loadSaveStrategies;
 import model.Metrocard;
 import model.database.utilities.ExcelLoadSaveTemplate;
 
-import java.text.MessageFormat;
+import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Map;
 
-public class MetrocarsExcelLoadSaveStrategy extends ExcelLoadSaveTemplate {
-//    @Override
-//    protected Metrocard maakObject(ArrayList<String> line) {
-//        return new Metrocard(Integer.parseInt(line.get(0)), line.get(1), Integer.parseInt(line.get(2)),Integer.parseInt(line.get(3)));
-//    }
+public class MetrocardsExcelLoadSaveStrategy extends ExcelLoadSaveTemplate implements LoadSaveStrategy{
 
     @Override
     protected Metrocard maakObject(ArrayList line) {

@@ -4,6 +4,7 @@ public class LoadSaveStrategyFactory {
 
     private static LoadSaveStrategyFactory only = new LoadSaveStrategyFactory();
 
+    private LoadSaveStrategyFactory(){}
     public static LoadSaveStrategyFactory getInstance(){return only;}
 
     public LoadSaveStrategy createLoadSaveStrategy(String command){

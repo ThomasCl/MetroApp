@@ -1,13 +1,16 @@
 package model.database;
 
+import jxl.read.biff.BiffException;
+import jxl.write.WriteException;
 import model.Metrocard;
 import model.database.loadSaveStrategies.LoadSaveStrategy;
 import model.database.loadSaveStrategies.LoadSaveStrategyFactory;
-import sun.reflect.generics.tree.Tree;
+
 
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Map;
 import java.util.TreeMap;
 
 public class MetrocardDatabase {
@@ -17,7 +20,7 @@ public class MetrocardDatabase {
     private final LoadSaveStrategy lss;
 
 
-    MetrocardDatabase(String fileType){
+    public MetrocardDatabase(String fileType){
         if(fileType.toLowerCase().equals("tekst")){
             bestand = new File("src/bestanden/metrocards.txt");
             lss = LoadSaveStrategyFactory.getInstance().createLoadSaveStrategy("METROCARDTEKST");
@@ -33,8 +36,15 @@ public class MetrocardDatabase {
     }
     public void load(){
         try{
-            MetrocardList = (TreeMap<Integer, Metrocard>) lss.load(bestand);
+            Map<Integer,Metrocard> map = lss.load(bestand);
+            MetrocardList = new TreeMap<>();
+            for(int i: map.keySet()){
+                MetrocardList.put(i,map.get(i));
+            }
+
         } catch (IOException e) {
+            throw new RuntimeException(e);
+        } catch (BiffException e) {
             throw new RuntimeException(e);
         }
     }
@@ -43,6 +53,10 @@ public class MetrocardDatabase {
         try{
             lss.save(bestand,MetrocardList);
         } catch (IOException e) {
+            throw new RuntimeException(e);
+        } catch (BiffException e) {
+            throw new RuntimeException(e);
+        } catch (WriteException e) {
             throw new RuntimeException(e);
         }
     }

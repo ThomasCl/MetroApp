@@ -5,7 +5,7 @@ import model.database.utilities.TekstLoadSaveTemplate;
 
 import java.text.MessageFormat;
 
-public class MetrocardsTekstLoadSaveStrategy extends TekstLoadSaveTemplate {
+public class MetrocardsTekstLoadSaveStrategy extends TekstLoadSaveTemplate implements LoadSaveStrategy{
 @Override
     protected Metrocard maakObject(String[] tokens) {
     Metrocard metrocard = new Metrocard(Integer.parseInt(tokens[0]),tokens[1], Integer.parseInt(tokens[2]), Integer.parseInt(tokens[3]));

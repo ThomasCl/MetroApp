@@ -4,12 +4,14 @@ package view;
 import javafx.scene.control.Tab;
 import javafx.scene.control.TabPane;
 import javafx.scene.layout.BorderPane;
+import model.database.MetrocardDatabase;
 import view.panels.MetroCardOverviewPane;
 
 public class AdminMainPane extends BorderPane {
-	public AdminMainPane(){		
-	    TabPane tabPane = new TabPane(); 	    
-        MetroCardOverviewPane metroCardOverviewPane = new MetroCardOverviewPane();
+	public AdminMainPane(){
+	    TabPane tabPane = new TabPane();
+        MetrocardDatabase mcdb = new MetrocardDatabase("excel");
+        MetroCardOverviewPane metroCardOverviewPane = new MetroCardOverviewPane(mcdb);
 	//maak een controlCenterPane aan
 	//maak een setupPane aan
         Tab metroCardOverviewTab = new Tab("Metro cards overview",metroCardOverviewPane);
