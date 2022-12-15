@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63f45679-e0d3-45b2-b9d6-ea6dd0674c1f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/model/database/SettingsDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/database/loadSaveStrategies/SettingsLoadSave.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bestanden/metrocards.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/bestanden/metrocards.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bestanden/metrocards.xls" beforeDir="false" afterPath="$PROJECT_DIR$/src/bestanden/metrocards.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/database/MetrocardDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/database/MetrocardDatabase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/database/loadSaveStrategies/LoadSaveStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/database/loadSaveStrategies/LoadSaveStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/database/loadSaveStrategies/LoadSaveStrategyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/database/loadSaveStrategies/LoadSaveStrategyFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/database/loadSaveStrategies/MetrocardsTekstLoadSaveStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/database/loadSaveStrategies/MetrocardsTekstLoadSaveStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/database/loadSaveStrategies/MetrocarsExcelLoadSaveStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/database/loadSaveStrategies/MetrocardsExcelLoadSaveStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/database/utilities/ExcelLoadSaveTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/database/utilities/ExcelLoadSaveTemplate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/AdminMainPane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/AdminMainPane.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/panels/MetroCardOverviewPane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/panels/MetroCardOverviewPane.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +15,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -40,18 +32,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/claes/Downloads/Tableview_JavaFX_Movies(1) (1)/Tableview_JavaFX_Movies",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/claes/Downloads/Tableview_JavaFX_Movies(1) (1)/Tableview_JavaFX_Movies&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="model.database.utilities" />
@@ -101,7 +93,12 @@
       <workItem from="1669655693141" duration="9000" />
       <workItem from="1669928834089" duration="8964000" />
       <workItem from="1670069825411" duration="6639000" />
-      <workItem from="1670169186644" duration="5056000" />
+      <workItem from="1670169186644" duration="5121000" />
+      <workItem from="1670176216579" duration="1847000" />
+      <workItem from="1670233445930" duration="16000" />
+      <workItem from="1670246129318" duration="713000" />
+      <workItem from="1670251318597" duration="15000" />
+      <workItem from="1671095215728" duration="1842000" />
     </task>
     <servers />
   </component>
@@ -122,16 +119,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/view/panels/MetroCardOverviewPane.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/model/database/MetrocardDatabase.java</url>
-          <line>40</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/model/database/loadSaveStrategies/LoadSaveStrategyEnum.java</url>
           <line>6</line>
