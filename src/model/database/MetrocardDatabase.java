@@ -18,6 +18,7 @@ public class MetrocardDatabase {
 
     private final File bestand;
     private final LoadSaveStrategy lss;
+    private int id=0;
 
 
     public MetrocardDatabase(String fileType){
@@ -40,6 +41,7 @@ public class MetrocardDatabase {
             MetrocardList = new TreeMap<>();
             for(int i: map.keySet()){
                 MetrocardList.put(i,map.get(i));
+                id = map.get(i).getId();
             }
 
         } catch (IOException e) {
@@ -66,5 +68,10 @@ public class MetrocardDatabase {
             m.add(MetrocardList.get(i));
         }
         return m;
+    }
+
+    public void add(Metrocard mc){
+        mc.setId(id+1);
+        MetrocardList.put(MetrocardList.size()+1,mc);
     }
 }

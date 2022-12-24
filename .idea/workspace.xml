@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="63f45679-e0d3-45b2-b9d6-ea6dd0674c1f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/model/database/SettingsDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/database/loadSaveStrategies/SettingsLoadSave.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MetroApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MetroApp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bestanden/metrocards.xls" beforeDir="false" afterPath="$PROJECT_DIR$/src/bestanden/metrocards.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Metrocard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Metrocard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/database/MetrocardDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/database/MetrocardDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/MetroTicketView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/MetroTicketView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +29,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -32,18 +46,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/claes/Downloads/Tableview_JavaFX_Movies(1) (1)/Tableview_JavaFX_Movies&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
-  }
-}</component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../jxl-1.0.jar" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="model.database.utilities" />
@@ -99,6 +109,10 @@
       <workItem from="1670246129318" duration="713000" />
       <workItem from="1670251318597" duration="15000" />
       <workItem from="1671095215728" duration="1842000" />
+      <workItem from="1671877649307" duration="76000" />
+      <workItem from="1671877744054" duration="1432000" />
+      <workItem from="1671879207645" duration="215000" />
+      <workItem from="1671879442667" duration="11625000" />
     </task>
     <servers />
   </component>
@@ -130,5 +144,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
