@@ -32,4 +32,10 @@ public class MetroGate {
     public int getId() {
         return id;
     }
+
+
+
+
+
+
 }
