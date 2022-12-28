@@ -5,6 +5,7 @@ import javafx.stage.Stage;
 import view.AdminView;
 import view.MetroStationView;
 import view.MetroTicketView;
+import view.panels.ControlCenterViewPane;
 
 
 public class MetroMain extends Application {
@@ -13,6 +14,7 @@ public class MetroMain extends Application {
 		AdminView adminView = new AdminView();
 		MetroTicketView metroTicketView = new MetroTicketView();
 		MetroStationView metroStationView = new MetroStationView();
+//		ControlCenterViewPane controlCenterViewPane = new ControlCenterViewPane();
 	}
 	
 	public static void main(String[] args) {

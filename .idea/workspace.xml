@@ -2,19 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63f45679-e0d3-45b2-b9d6-ea6dd0674c1f" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/src/controller/ControlCenterViewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/MetroCardViewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/MetroStationViewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/MetroTicketViewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/SettingsViewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/observer/DisplayElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/observer/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/observer/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/panels/ControlCenterViewPane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/panels/MetroStationViewPane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/panels/MetroTicketViewPane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/panels/SettingsViewPane.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/MetroMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/MetroMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/ControlCenterViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/ControlCenterViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/MetroCardViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/MetroCardOverviewPaneController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/database/MetrocardDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/database/MetrocardDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/database/SettingsDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/database/SettingsDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/AdminMainPane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/AdminMainPane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/panels/ControlCenterViewPane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/panels/ControlCenterViewPane.java" afterDir="false" />
+    </list>
+    <list id="9f458c35-724a-413c-bbc9-ccf5fc2eb67f" name="Changes by Daniel Dierckx" comment="">
+      <change beforePath="$PROJECT_DIR$/src/view/panels/SettingsViewPane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/panels/SettingsViewPane.java" afterDir="false" />
+    </list>
+    <list id="dd0a27e9-9af2-427c-8860-e8e918e8fa43" name="Changes by Joren" comment="">
+      <change beforePath="$PROJECT_DIR$/src/controller/SettingsViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/SettingsViewController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +29,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -45,19 +46,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Jaar 2-3/semester 1/OOO/cursus/headFirst_DesignPatterns_Code/observer/weather",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Jaar 2-3/semester 1/OOO/cursus/headFirst_DesignPatterns_Code/observer/weather&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="model.database.utilities" />
@@ -115,6 +116,7 @@
       <workItem from="1671095215728" duration="1842000" />
       <workItem from="1672147848323" duration="8872000" />
       <workItem from="1672218295270" duration="1652000" />
+      <workItem from="1672221848065" duration="4142000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1672148443007</created>
@@ -143,20 +145,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <option name="LAST_COMMIT_MESSAGE" value="test" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/model/database/loadSaveStrategies/LoadSaveStrategyEnum.java</url>
-          <line>6</line>
-          <properties class="model.database.loadSaveStrategies.LoadSaveStrategyEnum" method="&lt;init&gt;">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

@@ -19,6 +19,8 @@ public class MetrocardDatabase {
     private final File bestand;
     private final LoadSaveStrategy lss;
 
+    private static MetrocardDatabase metrocardDatabaseInstance;
+
 
     public MetrocardDatabase(String fileType){
         if(fileType.toLowerCase().equals("tekst")){
@@ -33,6 +35,13 @@ public class MetrocardDatabase {
         else{
             throw new IllegalArgumentException("no viable fileType");
         }
+    }
+
+    public static MetrocardDatabase getMetrocardDatabase(String filetype){
+        if(metrocardDatabaseInstance == null){
+            metrocardDatabaseInstance = new MetrocardDatabase(filetype);
+        }
+        return metrocardDatabaseInstance;
     }
     public void load(){
         try{
