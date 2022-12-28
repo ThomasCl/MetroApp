@@ -5,20 +5,23 @@ import jxl.write.WriteException;
 import model.Metrocard;
 import model.database.loadSaveStrategies.LoadSaveStrategy;
 import model.database.loadSaveStrategies.LoadSaveStrategyFactory;
+import view.panels.MetroCardOverviewPane;
 
 
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 
-public class MetrocardDatabase {
+public class MetrocardDatabase implements Subject{
     private TreeMap<Integer, Metrocard> MetrocardList;
-
     private final File bestand;
     private final LoadSaveStrategy lss;
     private int id=0;
+    private final List<Observer> observers = new ArrayList<>();
+
 
 
     public MetrocardDatabase(String fileType){
@@ -70,8 +73,30 @@ public class MetrocardDatabase {
         return m;
     }
 
-    public void add(Metrocard mc){
-        mc.setId(id+1);
-        MetrocardList.put(MetrocardList.size()+1,mc);
+    public void add(Metrocard mc) {
+        mc.setId(id + 1);
+        MetrocardList.put(MetrocardList.size() + 1, mc);
+        System.out.println(observers);
+        notifyObservers();
+    }
+
+    @Override
+    public void addObserver(Observer o) {
+        observers.add(o);
+        System.out.println(observers);
+
+
+    }
+
+    @Override
+    public void removeObserver(Observer o) {
+        observers.remove(o);
+
+    }
+
+    @Override
+    public void notifyObservers() {
+        observers.forEach(Observer::update);
+
     }
 }

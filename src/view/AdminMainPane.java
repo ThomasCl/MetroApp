@@ -8,9 +8,8 @@ import model.database.MetrocardDatabase;
 import view.panels.MetroCardOverviewPane;
 
 public class AdminMainPane extends BorderPane {
-	public AdminMainPane(){
+	public AdminMainPane(MetrocardDatabase mcdb){
 	    TabPane tabPane = new TabPane();
-        MetrocardDatabase mcdb = new MetrocardDatabase("excel");
         MetroCardOverviewPane metroCardOverviewPane = new MetroCardOverviewPane(mcdb);
 	//maak een controlCenterPane aan
 	//maak een setupPane aan

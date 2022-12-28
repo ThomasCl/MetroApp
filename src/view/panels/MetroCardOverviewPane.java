@@ -14,15 +14,17 @@ import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 import model.Metrocard;
 import model.database.MetrocardDatabase;
+import model.database.Observer;
 
 
-public class MetroCardOverviewPane extends GridPane{
+public class MetroCardOverviewPane extends GridPane implements Observer {
 	private MetrocardDatabase mcDB;
 	private TableView<Metrocard> table ;
 	private ObservableList<Metrocard> metrocards;
 	
 	public MetroCardOverviewPane(MetrocardDatabase metrocardDatabase) {
 		this.mcDB = metrocardDatabase;
+		mcDB.addObserver(this);
 		this.setPadding(new Insets(5, 5, 5, 5));
         this.setVgap(5);
         this.setHgap(5);
@@ -31,6 +33,10 @@ public class MetroCardOverviewPane extends GridPane{
 
 
 		table = new TableView<Metrocard>();
+		extracted();
+	}
+
+	private void extracted() {
 		refresh();
 		TableColumn<Metrocard, Integer> colId = new TableColumn<Metrocard, Integer>("ID");
 		colId.setMinWidth(100);
@@ -51,13 +57,21 @@ public class MetroCardOverviewPane extends GridPane{
 		table.getColumns().addAll(colId, colDate, colAvail, colUsed);
 
 
+		this.getChildren().clear();
+
 		this.getChildren().addAll(table);
 	}
 
 
+	@Override
+	public void update() {
+		extracted();
 
+	}
 	public void refresh(){
 		metrocards = FXCollections.observableArrayList(mcDB.getMetrocardList());
+		table.getColumns().clear();
+		table.getItems().clear();
 		table.setItems(metrocards);
 		table.refresh();
 	}

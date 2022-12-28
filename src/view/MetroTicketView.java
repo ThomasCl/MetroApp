@@ -21,12 +21,14 @@ import java.time.LocalDate;
 public class MetroTicketView {
 	private Stage stage = new Stage();
 	private Button button;
-		
-	public MetroTicketView(){
+	MetrocardDatabase metrocardDatabase;
+
+	public MetroTicketView(MetrocardDatabase mcdb){
 		stage.setTitle("METROTICKET VIEW");
 		stage.initStyle(StageStyle.UTILITY);
 		stage.setX(5);
 		stage.setY(5);
+		metrocardDatabase = mcdb;
 
 
 
@@ -49,14 +51,16 @@ public class MetroTicketView {
 
 
 	public void new_mc(){
-
-		MetrocardDatabase metrocardDatabase = new MetrocardDatabase("excel");
 		metrocardDatabase.load();
 
 
+
 		Metrocard mc = new Metrocard(LocalDate.now().plusMonths(1).plusYears(1), 2,0);
+
 		metrocardDatabase.add(mc);
 		metrocardDatabase.save();
+
+
 
 		Label select_metro_card = new Label("Select metro card");
 		TextField input_select_metro_card = new TextField();

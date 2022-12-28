@@ -5,12 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63f45679-e0d3-45b2-b9d6-ea6dd0674c1f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/model/database/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/database/Subject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetroApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MetroApp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/MetroMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/MetroMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bestanden/metrocards.xls" beforeDir="false" afterPath="$PROJECT_DIR$/src/bestanden/metrocards.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Metrocard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Metrocard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/database/MetrocardDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/database/MetrocardDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/AdminMainPane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/AdminMainPane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/AdminView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/AdminView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/MetroStationView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/MetroStationView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/MetroTicketView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/MetroTicketView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/panels/MetroCardOverviewPane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/panels/MetroCardOverviewPane.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,9 +25,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -37,6 +42,13 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/view/panels/MetroCardOverviewPane.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/application/MetroMain.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/model/database/MetrocardDatabase.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/model/database/loadSaveStrategies/MetrocardsExcelLoadSaveStrategy.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/view/MetroTicketView.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -48,7 +60,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../jxl-1.0.jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../25_Haems_Werbrouck_Martens_DeBruyn_Broodjeszaak_2021_2022-main" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -112,7 +124,7 @@
       <workItem from="1671877649307" duration="76000" />
       <workItem from="1671877744054" duration="1432000" />
       <workItem from="1671879207645" duration="215000" />
-      <workItem from="1671879442667" duration="11625000" />
+      <workItem from="1671879442667" duration="17336000" />
     </task>
     <servers />
   </component>
