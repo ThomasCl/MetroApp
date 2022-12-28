@@ -4,9 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63f45679-e0d3-45b2-b9d6-ea6dd0674c1f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/model/database/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/database/Subject.java" afterDir="false" />
+
+    <list default="true" id="63f45679-e0d3-45b2-b9d6-ea6dd0674c1f" name="Changes" comment="test">
+      <change afterPath="$PROJECT_DIR$/src/controller/ControlCenterViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/MetroCardViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/MetroStationViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/MetroTicketViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/SettingsViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/DisplayElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/panels/ControlCenterViewPane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/panels/MetroStationViewPane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/panels/MetroTicketViewPane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/panels/SettingsViewPane.java" afterDir="false" />
+
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/application/MetroMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/MetroMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bestanden/metrocards.xls" beforeDir="false" afterPath="$PROJECT_DIR$/src/bestanden/metrocards.xls" afterDir="false" />
@@ -21,6 +33,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -58,14 +73,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../25_Haems_Werbrouck_Martens_DeBruyn_Broodjeszaak_2021_2022-main" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-  </component>
+
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Jaar 2-3/semester 1/OOO/cursus/headFirst_DesignPatterns_Code/observer/weather",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="model.database.utilities" />
@@ -121,11 +142,18 @@
       <workItem from="1670246129318" duration="713000" />
       <workItem from="1670251318597" duration="15000" />
       <workItem from="1671095215728" duration="1842000" />
-      <workItem from="1671877649307" duration="76000" />
-      <workItem from="1671877744054" duration="1432000" />
-      <workItem from="1671879207645" duration="215000" />
-      <workItem from="1671879442667" duration="17336000" />
+
+      <workItem from="1672147848323" duration="8872000" />
+      <workItem from="1672218295270" duration="1652000" />
     </task>
+    <task id="LOCAL-00001" summary="test">
+      <created>1672148443007</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1672148443007</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +169,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
