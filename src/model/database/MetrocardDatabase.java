@@ -20,14 +20,11 @@ import java.util.TreeMap;
 public class MetrocardDatabase implements Subject {
     private TreeMap<Integer, Metrocard> MetrocardList;
     private final File bestand;
-<<<<<<< HEAD
+
     private LoadSaveStrategy lss;
-=======
-    private final LoadSaveStrategy lss;
     private int id=0;
     private final List<Observer> observers = new ArrayList<>();
 
->>>>>>> f8c930235de5b57af69de610f42cf4340206a30a
 
     private static MetrocardDatabase metrocardDatabaseInstance;
 

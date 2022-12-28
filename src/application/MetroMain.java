@@ -12,10 +12,10 @@ import view.panels.ControlCenterViewPane;
 public class MetroMain extends Application {
 	@Override
 	public void start(Stage primaryStage) {
-
-		AdminView adminView = new AdminView();
-		MetroTicketView metroTicketView = new MetroTicketView();
-		MetroStationView metroStationView = new MetroStationView();
+		MetrocardDatabase mcDB = new MetrocardDatabase("excel");
+		AdminView adminView = new AdminView(mcDB);
+		MetroTicketView metroTicketView = new MetroTicketView(mcDB);
+		MetroStationView metroStationView = new MetroStationView(mcDB);
 //		ControlCenterViewPane controlCenterViewPane = new ControlCenterViewPane();
 	}
 	
