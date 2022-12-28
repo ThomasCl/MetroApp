@@ -1,69 +1,146 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="317934af-de66-427c-856d-cb816059916b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/jxl-2.6.12.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+
+    <list default="true" id="63f45679-e0d3-45b2-b9d6-ea6dd0674c1f" name="Changes" comment="test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetroApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MetroApp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/MetroMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/MetroMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bestanden/metrocards.xls" beforeDir="false" afterPath="$PROJECT_DIR$/src/bestanden/metrocards.xls" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controller/ControlCenterViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/ControlCenterViewController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/MetroFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/MetroFacade.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/database/MetrocardDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/database/MetrocardDatabase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/panels/ControlCenterViewPane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/panels/ControlCenterViewPane.java" afterDir="false" />
+    </list>
+    <list id="9f458c35-724a-413c-bbc9-ccf5fc2eb67f" name="Changes by Daniel Dierckx" comment="" />
+    <list id="dd0a27e9-9af2-427c-8860-e8e918e8fa43" name="Changes by Joren" comment="">
+      <change beforePath="$PROJECT_DIR$/src/controller/SettingsViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/SettingsViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/database/loadSaveStrategies/LoadSaveStrategyEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/database/loadSaveStrategies/LoadSaveStrategyEnum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/view/panels/MetroCardOverviewPane.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/application/MetroMain.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/model/database/MetrocardDatabase.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/model/database/loadSaveStrategies/MetrocardsExcelLoadSaveStrategy.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/view/MetroTicketView.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2JXkWbgZKmuzJHm0o163H8H163W" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2IB5lRPYRvQKUr6fvXXr8CG5ysj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/claes/School/OOO/jxl-2.6.12(4).jar",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0"
+
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Jaar 2-3/semester 1/OOO/cursus/headFirst_DesignPatterns_Code/observer/weather&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\claes\School\OOO\MetroApp" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="model.database.utilities" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\claes\School\OOO\MetroApp\src\bestanden" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\claes\School\OOO\MetroApp\src\bestanden" />
+      <recent name="C:\Users\claes\School\OOO\MetroApp\src" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="model" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="MetroMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="application.MetroMain" />
+      <module name="MetroApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MetroMain" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="317934af-de66-427c-856d-cb816059916b" name="Changes" comment="" />
-      <created>1672231851487</created>
+      <changelist id="63f45679-e0d3-45b2-b9d6-ea6dd0674c1f" name="Changes" comment="" />
+      <created>1669642289513</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1672231851487</updated>
-      <workItem from="1672231853687" duration="414000" />
-      <workItem from="1672232275261" duration="208000" />
-      <workItem from="1672232487911" duration="450000" />
+      <updated>1669642289513</updated>
+      <workItem from="1669642290967" duration="239000" />
+      <workItem from="1669642659909" duration="103000" />
+      <workItem from="1669642937438" duration="3495000" />
+      <workItem from="1669655693141" duration="9000" />
+      <workItem from="1669928834089" duration="8964000" />
+      <workItem from="1670069825411" duration="6639000" />
+      <workItem from="1670169186644" duration="5121000" />
+      <workItem from="1670176216579" duration="1847000" />
+      <workItem from="1670233445930" duration="16000" />
+      <workItem from="1670246129318" duration="713000" />
+      <workItem from="1670251318597" duration="15000" />
+      <workItem from="1671095215728" duration="1842000" />
+      <workItem from="1672147848323" duration="8872000" />
+      <workItem from="1672218295270" duration="1652000" />
+      <workItem from="1672221848065" duration="4142000" />
     </task>
+    <task id="LOCAL-00001" summary="test">
+      <created>1672148443007</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1672148443007</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -81,6 +158,26 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/model/database/loadSaveStrategies/LoadSaveStrategyEnum.java</url>
+          <line>6</line>
+          <properties class="model.database.loadSaveStrategies.LoadSaveStrategyEnum" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
