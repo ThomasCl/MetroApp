@@ -4,12 +4,13 @@ import javafx.scene.Group;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
+import model.database.MetrocardDatabase;
 
 public class MetroStationView {
 	
 	private Stage stage = new Stage();		
 	
-	public MetroStationView(){			
+	public MetroStationView(MetrocardDatabase mcdb){
 		stage.setTitle("METRO STATION VIEW");
 		stage.initStyle(StageStyle.UTILITY);
 		stage.setX(5);
