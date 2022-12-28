@@ -9,9 +9,8 @@ import view.panels.ControlCenterViewPane;
 import view.panels.MetroCardOverviewPane;
 
 public class AdminMainPane extends BorderPane {
-	public AdminMainPane(){
+	public AdminMainPane(MetrocardDatabase mcdb){
 	    TabPane tabPane = new TabPane();
-        MetrocardDatabase mcdb = new MetrocardDatabase("excel");
         MetroCardOverviewPane metroCardOverviewPane = new MetroCardOverviewPane(mcdb);
         ControlCenterViewPane controlCenterViewPane = new ControlCenterViewPane();
 	//maak een controlCenterPane aan
