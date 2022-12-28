@@ -1,5 +1,7 @@
 package model;
 
+import java.time.LocalDate;
+
 public class Metrocard {
     private int id;
     private String date;
@@ -7,8 +9,19 @@ public class Metrocard {
     private int aantalVerbruikteRitten;
 
 
+    public Metrocard(int id, LocalDate date, int beschikbaar, int verbruikt){
+        setId(id);
+        setDate(date);
+        setAantalBeschikbareRitten(beschikbaar);
+        setAantalVerbruikteRitten(verbruikt);
+    }
     public Metrocard(int id, String date, int beschikbaar, int verbruikt){
         setId(id);
+        setDate(date);
+        setAantalBeschikbareRitten(beschikbaar);
+        setAantalVerbruikteRitten(verbruikt);
+    }
+    public Metrocard(LocalDate date, int beschikbaar, int verbruikt){
         setDate(date);
         setAantalBeschikbareRitten(beschikbaar);
         setAantalVerbruikteRitten(verbruikt);
@@ -26,7 +39,14 @@ public class Metrocard {
     }
 
     public void setDate(String date) {
+
         this.date = date;
+    }
+
+    public void setDate (LocalDate date){
+        String month = String.valueOf(date.getMonthValue());
+        String year = String.valueOf(date.getYear());
+        this.date= String.format("%s#%s",month,year);
     }
 
     public int getAantalBeschikbareRitten() {

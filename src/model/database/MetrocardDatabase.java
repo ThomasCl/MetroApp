@@ -5,19 +5,29 @@ import jxl.write.WriteException;
 import model.Metrocard;
 import model.database.loadSaveStrategies.LoadSaveStrategy;
 import model.database.loadSaveStrategies.LoadSaveStrategyFactory;
+import observer.Observer;
+import observer.Subject;
+import view.panels.MetroCardOverviewPane;
 
 
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 
-public class MetrocardDatabase {
+public class MetrocardDatabase implements Subject {
     private TreeMap<Integer, Metrocard> MetrocardList;
-
     private final File bestand;
+<<<<<<< HEAD
     private LoadSaveStrategy lss;
+=======
+    private final LoadSaveStrategy lss;
+    private int id=0;
+    private final List<Observer> observers = new ArrayList<>();
+
+>>>>>>> f8c930235de5b57af69de610f42cf4340206a30a
 
     private static MetrocardDatabase metrocardDatabaseInstance;
 
@@ -49,6 +59,7 @@ public class MetrocardDatabase {
             MetrocardList = new TreeMap<>();
             for(int i: map.keySet()){
                 MetrocardList.put(i,map.get(i));
+                id = map.get(i).getId();
             }
 
         } catch (IOException e) {
@@ -76,7 +87,35 @@ public class MetrocardDatabase {
         }
         return m;
     }
+
     public void setLoadSaveStrategy(LoadSaveStrategy lss){
         this.lss = lss;
+    }
+
+    public void add(Metrocard mc) {
+        mc.setId(id + 1);
+        MetrocardList.put(MetrocardList.size() + 1, mc);
+        System.out.println(observers);
+        notifyObservers();
+    }
+
+
+
+    @Override
+    public void removeObserver(Observer o) {
+        observers.remove(o);
+
+    }
+
+    @Override
+    public void registerObserver(Observer observer) {
+        observers.add(observer);
+
+    }
+
+    @Override
+    public void notifyObservers() {
+        observers.forEach(Observer::update);
+
     }
 }
