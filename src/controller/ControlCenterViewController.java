@@ -1,14 +1,16 @@
 package controller;
 
 import model.MetroFacade;
+import model.database.SettingsDatabase;
 import view.panels.ControlCenterViewPane;
 
 public class ControlCenterViewController {
     private MetroFacade facade;
-    private ControlCenterViewPane pane;
-    public void ControlCenterViewController(MetroFacade facade, ControlCenterViewPane pane){
-        this.facade = facade;
-        this.pane = pane;
+    private String format;
+
+    public void ControlCenterViewController(MetroFacade facade){
+        String format = SettingsDatabase.getSettingsDatabase().getProperty("format");
+        this.facade = MetroFacade.getMetroFacade(format);
     }
 
     public void openMetroStation() {

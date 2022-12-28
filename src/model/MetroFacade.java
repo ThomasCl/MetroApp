@@ -14,11 +14,19 @@ public class MetroFacade implements Subject {
     private LoadSaveStrategyFactory lssf;
     private ArrayList<Observer> observers;
     private String loadSaveStrategy;
+    private static MetroFacade instance;
 
-    public MetroFacade(String filetype) {
+    private MetroFacade(String filetype) {
         metroDB = MetrocardDatabase.getMetrocardDatabase(filetype);
         lssf = LoadSaveStrategyFactory.getInstance();
         observers = new ArrayList<>();
+    }
+
+    public static MetroFacade getMetroFacade(String filetype){
+        if( instance == null){
+            instance = new MetroFacade(filetype);
+        }
+        return instance;
     }
 
     public void openMetroStation(){
