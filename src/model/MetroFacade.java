@@ -51,10 +51,18 @@ public class MetroFacade implements Subject {
     }
 
     public void setLoadSaveStrategy() {
-//        metroDB.setLoadSaveStrategy();
+        // this.loadSaveStrategy = (String) LoadSaveStrategyFactory.createLoadSaveStrategy()
     }
 
     public String getLoadSaveStrategy() {
         return loadSaveStrategy;
+    }
+    public void setProperty(String key, String value){
+        SettingsDatabase.getSettingsDatabase().setProperties(key, value);
+        SettingsDatabase.getSettingsDatabase().saveProperties();
+    }
+
+    public void scanMetroGate(int metroCardID, int gateID) {
+
     }
 }

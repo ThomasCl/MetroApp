@@ -9,7 +9,7 @@ import javafx.scene.layout.GridPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 
-public class SettingsViewPane<E> extends GridPane{
+public class SettingsViewPane extends GridPane{
 
     private SettingsViewController controller;
 
@@ -17,9 +17,9 @@ public class SettingsViewPane<E> extends GridPane{
 
     private Button buttonSave;
 
-    public  SettingsViewPane(SettingsViewController controller){
+    public  SettingsViewPane(){
 
-        this.controller = controller;
+        this.controller = new SettingsViewController();
         this.setPadding(new Insets(5,5,5,5));
         this.setVgap(5);
         this.setHgap(5);
@@ -35,8 +35,8 @@ public class SettingsViewPane<E> extends GridPane{
         p1.setMargin(p1c1, new Insets(100, 0, 0, 0));
 
         loadSaveSetting = new ChoiceBox<>();
-        loadSaveSetting.getItems().add("Text file");
-        loadSaveSetting.getItems().add("excel file");
+        loadSaveSetting.getItems().add("Tekst");
+        loadSaveSetting.getItems().add("excel");
         loadSaveSetting.setValue(controller.getLoadSaveStrategy());
 
         loadSaveSetting.setStyle("-fx-border-color: black;-fx-min-width: 70px;-fx-border-radius: 8px;-fx-background-radius: 8px;");
@@ -44,7 +44,11 @@ public class SettingsViewPane<E> extends GridPane{
         buttonSave = new Button("Save");
         loadSaveSetting.setStyle("-fx-border-color: black;-fx-min-width: 70px;-fx-border-radius: 8px;-fx-background-radius: 8px;");
 
+        this.getChildren().addAll(loadSaveSetting, buttonSave);
 
+        buttonSave.setOnAction(a -> {
+            controller.setProperty("format", loadSaveSetting.getValue());
+        });
     }
 
 }

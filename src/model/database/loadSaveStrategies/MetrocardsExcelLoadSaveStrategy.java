@@ -22,7 +22,7 @@ public class MetrocardsExcelLoadSaveStrategy extends ExcelLoadSaveTemplate imple
         ArrayList<String> token = new ArrayList<>();
 
         token.add(Integer.toString(card.getId()));
-        token.add(card.getDate());
+        token.add(card.getDateAsString());
         token.add(Integer.toString(card.getAantalBeschikbareRitten()));
         token.add(Integer.toString(card.getAantalVerbruikteRitten()));
         return token;

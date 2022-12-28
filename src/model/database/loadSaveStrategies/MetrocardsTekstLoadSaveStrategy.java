@@ -15,7 +15,7 @@ public class MetrocardsTekstLoadSaveStrategy extends TekstLoadSaveTemplate imple
 @Override
     protected String maakToken(Object object) {
         Metrocard card = (Metrocard) object;
-        return MessageFormat.format("%s;%s;%s;%s;",card.getId(),card.getDate(),card.getAantalBeschikbareRitten(),card.getAantalVerbruikteRitten());
+        return String.format("%s;%s;%s;%s;",card.getId(),card.getDateAsString(),card.getAantalBeschikbareRitten(),card.getAantalVerbruikteRitten());
     }
     protected Integer getKey(String[] tokens) {
         return Integer.parseInt(tokens[0]);

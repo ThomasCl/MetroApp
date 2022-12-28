@@ -8,7 +8,7 @@ public class ControlCenterViewController {
     private MetroFacade facade;
     private String format;
 
-    public void ControlCenterViewController(MetroFacade facade){
+    public void ControlCenterViewController(){
         String format = SettingsDatabase.getSettingsDatabase().getProperty("format");
         this.facade = MetroFacade.getMetroFacade(format);
     }

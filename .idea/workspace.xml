@@ -4,17 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-
     <list default="true" id="63f45679-e0d3-45b2-b9d6-ea6dd0674c1f" name="Changes" comment="test">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/MetroMainBetter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bestanden/metrocards.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/bestanden/metrocards.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bestanden/metrocards.xls" beforeDir="false" afterPath="$PROJECT_DIR$/src/bestanden/metrocards.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bestanden/settings.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/bestanden/settings.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controller/ControlCenterViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/ControlCenterViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/MetroFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/MetroFacade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/database/MetrocardDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/database/MetrocardDatabase.java" afterDir="false" />
-    </list>
-    <list id="9f458c35-724a-413c-bbc9-ccf5fc2eb67f" name="Changes by Daniel Dierckx" comment="" />
-    <list id="dd0a27e9-9af2-427c-8860-e8e918e8fa43" name="Changes by Joren" comment="">
       <change beforePath="$PROJECT_DIR$/src/controller/SettingsViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/SettingsViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/MetroFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/MetroFacade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Metrocard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Metrocard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/database/loadSaveStrategies/MetrocardsExcelLoadSaveStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/database/loadSaveStrategies/MetrocardsExcelLoadSaveStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/database/loadSaveStrategies/MetrocardsTekstLoadSaveStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/database/loadSaveStrategies/MetrocardsTekstLoadSaveStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/AdminMainPane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/AdminMainPane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/MetroTicketView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/MetroTicketView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/panels/ControlCenterViewPane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/panels/ControlCenterViewPane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/panels/SettingsViewPane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/panels/SettingsViewPane.java" afterDir="false" />
+    </list>
+    <list id="9f458c35-724a-413c-bbc9-ccf5fc2eb67f" name="Changes by Daniel Dierckx" comment="">
+      <change afterPath="$PROJECT_DIR$/src/model/metroGateStates/Closed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/metroGateStates/Inactive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/metroGateStates/Open.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Metrocard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Metrocard.java" afterDir="false" />
+    </list>
+    <list id="dd0a27e9-9af2-427c-8860-e8e918e8fa43" name="Changes by Joren" comment="">
+      <change afterPath="$PROJECT_DIR$/src/model/MetroGate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/metroGateStates/MetroGateState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/SettingsViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/SettingsViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/MetroFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/MetroFacade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Metrocard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Metrocard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/database/loadSaveStrategies/LoadSaveStrategyEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/database/loadSaveStrategies/LoadSaveStrategyEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/database/loadSaveStrategies/LoadSaveStrategyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/database/loadSaveStrategies/LoadSaveStrategyFactory.java" afterDir="false" />
+    </list>
+    <list id="435fd92a-1c35-4b84-bb2f-41862a618931" name="Changes by simon" comment="">
+      <change beforePath="$PROJECT_DIR$/src/application/MetroMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/MetroMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,35 +69,68 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/view/panels/MetroCardOverviewPane.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/application/MetroMain.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/model/database/MetrocardDatabase.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/model/database/loadSaveStrategies/MetrocardsExcelLoadSaveStrategy.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/view/MetroTicketView.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/view/panels/MetroCardOverviewPane.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/src/model/MetroFacade.java">
+      <ranges>
+        <range start1="53" end1="54" start2="53" end2="54" changelist="dd0a27e9-9af2-427c-8860-e8e918e8fa43" />
+        <range start1="59" end1="59" start2="59" end2="63" changelist="63f45679-e0d3-45b2-b9d6-ea6dd0674c1f" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/src/controller/SettingsViewController.java">
+      <ranges>
+        <range start1="3" end1="3" start2="3" end2="4" changelist="63f45679-e0d3-45b2-b9d6-ea6dd0674c1f" />
+        <range start1="9" end1="11" start2="10" end2="15" changelist="63f45679-e0d3-45b2-b9d6-ea6dd0674c1f" />
+        <range start1="17" end1="17" start2="21" end2="24" changelist="63f45679-e0d3-45b2-b9d6-ea6dd0674c1f" />
+        <range start1="20" end1="21" start2="27" end2="27" changelist="dd0a27e9-9af2-427c-8860-e8e918e8fa43" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/src/model/Metrocard.java">
+      <ranges>
+        <range start1="2" end1="2" start2="2" end2="3" changelist="9f458c35-724a-413c-bbc9-ccf5fc2eb67f" />
+        <range start1="3" end1="3" start2="4" end2="7" changelist="9f458c35-724a-413c-bbc9-ccf5fc2eb67f" />
+        <range start1="6" end1="7" start2="10" end2="11" changelist="dd0a27e9-9af2-427c-8860-e8e918e8fa43" />
+        <range start1="11" end1="12" start2="15" end2="16" changelist="dd0a27e9-9af2-427c-8860-e8e918e8fa43" />
+        <range start1="17" end1="18" start2="21" end2="23" changelist="9f458c35-724a-413c-bbc9-ccf5fc2eb67f" />
+        <range start1="28" end1="28" start2="33" end2="34" changelist="dd0a27e9-9af2-427c-8860-e8e918e8fa43" />
+        <range start1="36" end1="37" start2="42" end2="43" changelist="dd0a27e9-9af2-427c-8860-e8e918e8fa43" />
+        <range start1="39" end1="39" start2="45" end2="50" changelist="63f45679-e0d3-45b2-b9d6-ea6dd0674c1f" />
+        <range start1="40" end1="42" start2="51" end2="52" changelist="9f458c35-724a-413c-bbc9-ccf5fc2eb67f" />
+        <range start1="45" end1="49" start2="55" end2="61" changelist="63f45679-e0d3-45b2-b9d6-ea6dd0674c1f" />
+        <range start1="50" end1="51" start2="62" end2="62" changelist="63f45679-e0d3-45b2-b9d6-ea6dd0674c1f" />
+      </ranges>
+    </file>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2IB5lRPYRvQKUr6fvXXr8CG5ysj" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Jaar 2-3/semester 1/OOO/cursus/headFirst_DesignPatterns_Code/observer/weather&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "C:/Jaar 2-3/semester 1/OOO/cursus/headFirst_DesignPatterns_Code/observer/weather",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="model.database.utilities" />
@@ -88,8 +145,11 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="model" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="application" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.MetroMainBetter">
     <configuration name="MetroMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="application.MetroMain" />
       <module name="MetroApp" />
@@ -103,8 +163,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MetroMainBetter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="application.MetroMainBetter" />
+      <module name="MetroApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MetroMainBetter" />
         <item itemvalue="Application.MetroMain" />
       </list>
     </recent_temporary>
@@ -132,6 +206,7 @@
       <workItem from="1672147848323" duration="8872000" />
       <workItem from="1672218295270" duration="1652000" />
       <workItem from="1672221848065" duration="4142000" />
+      <workItem from="1672234527385" duration="9651000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1672148443007</created>
@@ -164,14 +239,10 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/model/database/loadSaveStrategies/LoadSaveStrategyEnum.java</url>
-          <line>6</line>
-          <properties class="model.database.loadSaveStrategies.LoadSaveStrategyEnum" method="&lt;init&gt;">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="8" />
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/view/MetroTicketView.java</url>
+          <line>88</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

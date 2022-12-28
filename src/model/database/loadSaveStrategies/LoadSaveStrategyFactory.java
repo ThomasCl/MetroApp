@@ -10,9 +10,9 @@ public class LoadSaveStrategyFactory {
     public LoadSaveStrategy createLoadSaveStrategy(String command){
         LoadSaveStrategy lss = null;
         LoadSaveStrategyEnum lssenum = LoadSaveStrategyEnum.valueOf(command);
-        String location = lssenum.getLocation();
+        String className = lssenum.getClassName();
         try {
-            Class lssClass = Class.forName("model.database.loadSaveStrategies." + location);
+            Class lssClass = Class.forName(className);
             Object objectHandler = lssClass.getConstructor().newInstance();
             lss = (LoadSaveStrategy) objectHandler;
         } catch (Exception e) {

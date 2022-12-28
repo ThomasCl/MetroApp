@@ -85,6 +85,10 @@ public class MetroTicketView {
 
 
 		Button add = new Button("Add extra rides to card");
+		add.setOnAction(e-> {
+//			String help = "";
+//			Metrocard metrocard = metrocardDatabase.getMetrocardList().get();
+		});
 
 		Label totalPrice = new Label("Total price");
 		TextField txt = new TextField();
@@ -101,7 +105,4 @@ public class MetroTicketView {
 		stage.sizeToScene();
 		stage.show();
 	}
-
-
-
 }

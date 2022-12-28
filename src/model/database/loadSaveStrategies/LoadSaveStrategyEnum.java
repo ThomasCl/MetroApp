@@ -1,14 +1,14 @@
 package model.database.loadSaveStrategies;
 
 public enum LoadSaveStrategyEnum {
-    METROCARDEXCEL("MetrocardsExcelLoadSaveStrategy"),
-    METROCARDTEKST("MetrocardsTekstLoadSaveStrategy");
-    private final String location;
-    LoadSaveStrategyEnum(String location){
-        this.location = location;
+    METROCARDEXCEL("model.database.loadSaveStrategies.MetrocardsExcelLoadSaveStrategy"),
+    METROCARDTEKST("model.database.loadSaveStrategies.MetrocardsTekstLoadSaveStrategy");
+    private final String className;
+    LoadSaveStrategyEnum(String className){
+        this.className = className;
     }
-    public String getLocation(){
-        return location;
+    public String getClassName(){
+        return className;
     }
 }
 

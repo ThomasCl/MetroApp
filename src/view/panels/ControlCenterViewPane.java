@@ -5,6 +5,7 @@ import controller.ControlCenterViewController;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
+import javafx.event.Event;
 import javafx.event.EventHandler;
 import javafx.geometry.Insets;
 import javafx.scene.Scene;
@@ -27,27 +28,19 @@ public class ControlCenterViewPane extends GridPane{
 
     private ControlCenterViewController controller;
     public ControlCenterViewPane() {
-        this.controller= new ControlCenterViewController();
+        this.controller = new ControlCenterViewController();
         this.setPadding(new Insets(5, 5, 5, 5));
         this.setVgap(5);
         this.setHgap(5);
 
 
-
         Button button = new Button("Open Metrostation");
         this.getChildren().add(button);
 
-
-        EventHandler<ActionEvent> event = new EventHandler<ActionEvent>() {
-            public void handle(ActionEvent e)
-            {
-                controller.openMetroStation();
-            }
-        };
-
-        button.setOnAction(event);
+        button.setOnAction(a -> {
+            controller.openMetroStation();
+        });
     }
-
 
 
     public void refresh(){

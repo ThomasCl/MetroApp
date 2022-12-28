@@ -1,21 +1,26 @@
 package model;
 
+import java.text.SimpleDateFormat;
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+import java.time.format.DateTimeFormatterBuilder;
+import java.util.Locale;
 
 public class Metrocard {
     private int id;
-    private String date;
+    private LocalDate date;
     private int aantalBeschikbareRitten;
     private int aantalVerbruikteRitten;
 
 
-    public Metrocard(int id, LocalDate date, int beschikbaar, int verbruikt){
+    public Metrocard(int id, String date, int beschikbaar, int verbruikt){
         setId(id);
         setDate(date);
         setAantalBeschikbareRitten(beschikbaar);
         setAantalVerbruikteRitten(verbruikt);
     }
-    public Metrocard(int id, String date, int beschikbaar, int verbruikt){
+
+    public Metrocard(int id, LocalDate date, int beschikbaar, int verbruikt){
         setId(id);
         setDate(date);
         setAantalBeschikbareRitten(beschikbaar);
@@ -26,6 +31,7 @@ public class Metrocard {
         setAantalBeschikbareRitten(beschikbaar);
         setAantalVerbruikteRitten(verbruikt);
     }
+
     public int getId() {
         return id;
     }
@@ -34,21 +40,26 @@ public class Metrocard {
         this.id = id;
     }
 
-    public String getDate() {
+    public LocalDate getDate() {
         return date;
     }
 
-    public void setDate(String date) {
+    public String getDateAsString() {
+        String[] dat = date.format(DateTimeFormatter.ofPattern("d/M/yyyy")).split("/");
+        return(dat[1] + "#" + dat[2]);
+    }
 
+    public void setDate(LocalDate date) {
         this.date = date;
     }
 
-    public void setDate (LocalDate date){
-        String month = String.valueOf(date.getMonthValue());
-        String year = String.valueOf(date.getYear());
-        this.date= String.format("%s#%s",month,year);
-    }
+    public void setDate(String date) {
+        date = date.replace("#", "/");
+        date = "1/" + date;
 
+        DateTimeFormatter formatter = new DateTimeFormatterBuilder().appendOptional(DateTimeFormatter.ofPattern("d/M/yyyy")).toFormatter();
+        this.date = LocalDate.parse(date, formatter);
+    }
     public int getAantalBeschikbareRitten() {
         return aantalBeschikbareRitten;
     }
