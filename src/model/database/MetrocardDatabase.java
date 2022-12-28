@@ -5,6 +5,8 @@ import jxl.write.WriteException;
 import model.Metrocard;
 import model.database.loadSaveStrategies.LoadSaveStrategy;
 import model.database.loadSaveStrategies.LoadSaveStrategyFactory;
+import observer.Observer;
+import observer.Subject;
 import view.panels.MetroCardOverviewPane;
 
 
@@ -15,7 +17,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 
-public class MetrocardDatabase implements Subject{
+public class MetrocardDatabase implements Subject {
     private TreeMap<Integer, Metrocard> MetrocardList;
     private final File bestand;
     private final LoadSaveStrategy lss;
@@ -80,17 +82,17 @@ public class MetrocardDatabase implements Subject{
         notifyObservers();
     }
 
-    @Override
-    public void addObserver(Observer o) {
-        observers.add(o);
-        System.out.println(observers);
 
-
-    }
 
     @Override
     public void removeObserver(Observer o) {
         observers.remove(o);
+
+    }
+
+    @Override
+    public void registerObserver(Observer observer) {
+        observers.add(observer);
 
     }
 

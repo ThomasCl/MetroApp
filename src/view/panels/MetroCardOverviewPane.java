@@ -14,7 +14,7 @@ import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 import model.Metrocard;
 import model.database.MetrocardDatabase;
-import model.database.Observer;
+import observer.Observer;
 
 
 public class MetroCardOverviewPane extends GridPane implements Observer {
@@ -24,7 +24,7 @@ public class MetroCardOverviewPane extends GridPane implements Observer {
 	
 	public MetroCardOverviewPane(MetrocardDatabase metrocardDatabase) {
 		this.mcDB = metrocardDatabase;
-		mcDB.addObserver(this);
+		mcDB.registerObserver(this);
 		this.setPadding(new Insets(5, 5, 5, 5));
         this.setVgap(5);
         this.setHgap(5);
