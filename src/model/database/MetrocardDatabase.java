@@ -17,7 +17,7 @@ public class MetrocardDatabase {
     private TreeMap<Integer, Metrocard> MetrocardList;
 
     private final File bestand;
-    private final LoadSaveStrategy lss;
+    private LoadSaveStrategy lss;
 
     private static MetrocardDatabase metrocardDatabaseInstance;
 
@@ -75,5 +75,8 @@ public class MetrocardDatabase {
             m.add(MetrocardList.get(i));
         }
         return m;
+    }
+    public void setLoadSaveStrategy(LoadSaveStrategy lss){
+        this.lss = lss;
     }
 }

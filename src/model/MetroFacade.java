@@ -2,6 +2,7 @@ package model;
 
 import model.database.MetrocardDatabase;
 import model.database.SettingsDatabase;
+import model.database.loadSaveStrategies.LoadSaveStrategy;
 import model.database.loadSaveStrategies.LoadSaveStrategyFactory;
 import observer.Observer;
 import observer.Subject;
@@ -21,9 +22,10 @@ public class MetroFacade implements Subject {
     }
 
     public void openMetroStation(){
-        SettingsDatabase.getSettingsDatabase().getProperty();
-
-//        lssf.createLoadSaveStrategy();
+        String format = SettingsDatabase.getSettingsDatabase().getProperty("format");
+        LoadSaveStrategy lss =  lssf.createLoadSaveStrategy(format);
+        metroDB.setLoadSaveStrategy(lss);
+        metroDB.load();
     }
 
     @Override
@@ -41,7 +43,7 @@ public class MetroFacade implements Subject {
     }
 
     public void setLoadSaveStrategy() {
-        
+//        metroDB.setLoadSaveStrategy();
     }
 
     public String getLoadSaveStrategy() {

@@ -3,19 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="63f45679-e0d3-45b2-b9d6-ea6dd0674c1f" name="Changes" comment="test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/MetroMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/MetroMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controller/ControlCenterViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/ControlCenterViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/MetroCardViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/MetroCardOverviewPaneController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/MetroFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/MetroFacade.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/database/MetrocardDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/database/MetrocardDatabase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/database/SettingsDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/database/SettingsDatabase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/AdminMainPane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/AdminMainPane.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/panels/ControlCenterViewPane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/panels/ControlCenterViewPane.java" afterDir="false" />
     </list>
-    <list id="9f458c35-724a-413c-bbc9-ccf5fc2eb67f" name="Changes by Daniel Dierckx" comment="">
-      <change beforePath="$PROJECT_DIR$/src/view/panels/SettingsViewPane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/panels/SettingsViewPane.java" afterDir="false" />
-    </list>
+    <list id="9f458c35-724a-413c-bbc9-ccf5fc2eb67f" name="Changes by Daniel Dierckx" comment="" />
     <list id="dd0a27e9-9af2-427c-8860-e8e918e8fa43" name="Changes by Joren" comment="">
       <change beforePath="$PROJECT_DIR$/src/controller/SettingsViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/SettingsViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/database/loadSaveStrategies/LoadSaveStrategyEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/database/loadSaveStrategies/LoadSaveStrategyEnum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

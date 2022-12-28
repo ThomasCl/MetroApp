@@ -15,4 +15,9 @@ public class SettingsViewController implements Observer {
     public String getLoadSaveStrategy() {
         return facade.getLoadSaveStrategy();
     }
+
+    @Override
+    public void update() {
+
+    }
 }
