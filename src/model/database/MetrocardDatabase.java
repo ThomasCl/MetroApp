@@ -69,6 +69,7 @@ public class MetrocardDatabase implements Subject {
     public void save(){
         try{
             lss.save(bestand,MetrocardList);
+            notifyObservers();
         } catch (IOException e) {
             throw new RuntimeException(e);
         } catch (BiffException e) {
@@ -92,8 +93,6 @@ public class MetrocardDatabase implements Subject {
     public void add(Metrocard mc) {
         mc.setId(id + 1);
         MetrocardList.put(MetrocardList.size() + 1, mc);
-        System.out.println(observers);
-        notifyObservers();
     }
 
 
