@@ -113,7 +113,7 @@ public class MetroTicketView {
 	private void calculatePrice(Button button, HBox mc_id, TextField select_metro_card, HBox rides , TextField input_rides, CheckBox student, RadioButton r1, RadioButton r2, RadioButton r3, HBox age, Button add) throws NoSuchMethodException, InvocationTargetException, InstantiationException, IllegalAccessException, ClassNotFoundException {
 		TicketPrice ticketPrice = TicketPriceFactory.createTicketPrice(r1.isSelected(),r2.isSelected(),r3.isSelected());
 
-		System.out.println(ticketPrice.discountPrice(mc));
+		//System.out.println(ticketPrice.discountPrice(mc));
 
 		Label totalPrice = new Label("Total price: "+ticketPrice.calculatePrice(Integer.parseInt(input_rides.getText())));
 		HBox totalPriceBox = new HBox(totalPrice);
