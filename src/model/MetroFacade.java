@@ -91,5 +91,22 @@ public class MetroFacade implements Subject {
 
     }
 
+    public double getPrice(boolean is24min, boolean is64plus, boolean isstudent, int mcid) {
+        Metrocard mc = metroDB.getMetrocard(mcid);
+        double price = 2.10;
+        if(is64plus){
+            price = price - TicketpriceFactory.discount("AGEPLUS64DISCOUNT").getPrice();
+        }
+        if(isstudent){
+            price = price - TicketpriceFactory.discount("STUDENTDISCOUNT").getPrice();
+        }
+        if(mc.getAantalVerbruikteRitten() >= 50){
+            price = price - TicketpriceFactory.discount("FREQUENTTRAVLERDISCOUNT").getPrice();
+        }
+        if(LocalDate.of(2022, 12, 1).isBefore(LocalDate.now()) && LocalDate.now().isBefore(LocalDate.of(2022,12,31))){
+            price = price - TicketpriceFactory.discount("CHRISTMASLEAVEDISCOUNT").getPrice();
+        }
+        return price;
+    }
 
 }

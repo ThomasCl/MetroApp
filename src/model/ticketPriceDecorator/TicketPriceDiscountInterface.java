@@ -1,7 +1,8 @@
 package model.ticketPriceDecorator;
 
 
+import model.Metrocard;
 
 public interface TicketPriceDiscountInterface {
-    double CreateDiscount();
+    double CreateDiscount(Metrocard metrocard);
 }

@@ -3,7 +3,7 @@ package model.ticketPriceDecorator;
 public class FrequentTravellerDiscount extends TicketPrice {
 
     public double getPrice() {
-        return 1.90;
+        return 0.20;
     }
 
     public String getPriceText() {

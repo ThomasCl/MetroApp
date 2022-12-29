@@ -4,20 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63f45679-e0d3-45b2-b9d6-ea6dd0674c1f" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/ticketPriceDecorator/Age64PlusDiscount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/ticketPriceDecorator/BasicTicketPrice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/ticketPriceDecorator/ChristmasLeaveDiscount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/ticketPriceDecorator/FrequentTravellerDiscount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/ticketPriceDecorator/StudentDiscount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/ticketPriceDecorator/TicketPrice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/ticketPriceDecorator/TicketPriceDiscountEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/ticketPriceDecorator/TicketPriceDiscountInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/ticketPriceDecorator/TicketpriceFactory.java" afterDir="false" />
+    <list default="true" id="63f45679-e0d3-45b2-b9d6-ea6dd0674c1f" name="Changes" comment="Story 5 verderwerke">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bestanden/metrocards.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/bestanden/metrocards.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/MetroFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/MetroFacade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/ticketPriceDecorator/Age64PlusDiscount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/ticketPriceDecorator/Age64PlusDiscount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/ticketPriceDecorator/ChristmasLeaveDiscount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/ticketPriceDecorator/ChristmasLeaveDiscount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/ticketPriceDecorator/FrequentTravellerDiscount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/ticketPriceDecorator/FrequentTravellerDiscount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/ticketPriceDecorator/TicketPrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/ticketPriceDecorator/TicketPrice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/ticketPriceDecorator/TicketPriceDiscountInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/ticketPriceDecorator/TicketPriceDiscountInterface.java" afterDir="false" />
+    </list>
+    <list id="74c2adb0-2db7-41a1-b081-5901e13b4a24" name="Changes by claes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/controller/MetroTicketViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/MetroTicketViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/MetroFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/MetroFacade.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/database/MetrocardDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/database/MetrocardDatabase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/observer/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/observer/Subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/ticketPriceDecorator/FrequentTravellerDiscount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/ticketPriceDecorator/FrequentTravellerDiscount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/ticketPriceDecorator/StudentDiscount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/ticketPriceDecorator/StudentDiscount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/MetroTicketView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/MetroTicketView.java" afterDir="false" />
+    </list>
+    <list id="c5d19692-c77d-44aa-848a-7c2dfdc7e6fa" name="Changes by Daniel Dierckx" comment="">
+      <change beforePath="$PROJECT_DIR$/src/model/ticketPriceDecorator/Age64PlusDiscount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/ticketPriceDecorator/Age64PlusDiscount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/ticketPriceDecorator/ChristmasLeaveDiscount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/ticketPriceDecorator/ChristmasLeaveDiscount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/ticketPriceDecorator/FrequentTravellerDiscount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/ticketPriceDecorator/FrequentTravellerDiscount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/ticketPriceDecorator/StudentDiscount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/ticketPriceDecorator/StudentDiscount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/ticketPriceDecorator/TicketpriceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/ticketPriceDecorator/TicketpriceFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/observer/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/observer/Observer.java" afterDir="false" />
     </list>
     <list id="dd0a27e9-9af2-427c-8860-e8e918e8fa43" name="Changes by Joren" comment="" />
     <list id="435fd92a-1c35-4b84-bb2f-41862a618931" name="Changes by simon" comment="" />
@@ -62,6 +73,41 @@
     <setting file="file://$PROJECT_DIR$/src/controller/ControlCenterViewController.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/model/database/MetrocardDatabase.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/controller/SettingsViewController.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/src/model/ticketPriceDecorator/FrequentTravellerDiscount.java">
+      <ranges>
+        <range start1="2" end1="2" start2="2" end2="4" changelist="74c2adb0-2db7-41a1-b081-5901e13b4a24" />
+        <range start1="5" end1="6" start2="7" end2="8" changelist="63f45679-e0d3-45b2-b9d6-ea6dd0674c1f" />
+        <range start1="9" end1="10" start2="11" end2="12" changelist="c5d19692-c77d-44aa-848a-7c2dfdc7e6fa" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/src/model/ticketPriceDecorator/Age64PlusDiscount.java">
+      <ranges>
+        <range start1="5" end1="5" start2="5" end2="6" changelist="63f45679-e0d3-45b2-b9d6-ea6dd0674c1f" />
+        <range start1="8" end1="9" start2="9" end2="10" changelist="c5d19692-c77d-44aa-848a-7c2dfdc7e6fa" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/src/model/ticketPriceDecorator/ChristmasLeaveDiscount.java">
+      <ranges>
+        <range start1="5" end1="6" start2="5" end2="6" changelist="63f45679-e0d3-45b2-b9d6-ea6dd0674c1f" />
+        <range start1="9" end1="10" start2="9" end2="10" changelist="c5d19692-c77d-44aa-848a-7c2dfdc7e6fa" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/src/model/ticketPriceDecorator/StudentDiscount.java">
+      <ranges>
+        <range start1="5" end1="6" start2="5" end2="6" changelist="74c2adb0-2db7-41a1-b081-5901e13b4a24" />
+        <range start1="9" end1="10" start2="9" end2="10" changelist="c5d19692-c77d-44aa-848a-7c2dfdc7e6fa" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/src/model/MetroFacade.java">
+      <ranges>
+        <range start1="6" end1="6" start2="6" end2="8" changelist="74c2adb0-2db7-41a1-b081-5901e13b4a24" />
+        <range start1="9" end1="9" start2="11" end2="12" changelist="74c2adb0-2db7-41a1-b081-5901e13b4a24" />
+        <range start1="75" end1="75" start2="78" end2="81" changelist="74c2adb0-2db7-41a1-b081-5901e13b4a24" />
+        <range start1="93" end1="93" start2="99" end2="116" changelist="63f45679-e0d3-45b2-b9d6-ea6dd0674c1f" />
+      </ranges>
+    </file>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -163,7 +209,7 @@
       <workItem from="1672221848065" duration="4142000" />
       <workItem from="1672234527385" duration="15113000" />
       <workItem from="1672305266092" duration="7126000" />
-      <workItem from="1672318939088" duration="982000" />
+      <workItem from="1672318939088" duration="7584000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1672148443007</created>
@@ -172,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672148443007</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Story 5 verderwerke">
+      <created>1672320251585</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1672320251585</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,21 +245,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/model/MetroFacade.java</url>
-          <line>50</line>
-          <properties class="model.MetroFacade" method="notifyObservers">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Story 5 verderwerke" />
+    <option name="LAST_COMMIT_MESSAGE" value="Story 5 verderwerke" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

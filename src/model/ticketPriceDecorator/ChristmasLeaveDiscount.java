@@ -3,7 +3,7 @@ package model.ticketPriceDecorator;
 public class ChristmasLeaveDiscount extends TicketPrice {
 
     public double getPrice() {
-        return 2.0;
+        return 0.10;
     }
 
     public String getPriceText() {
