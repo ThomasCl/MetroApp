@@ -3,6 +3,7 @@ package model.database;
 
 import jxl.read.biff.BiffException;
 import jxl.write.WriteException;
+import model.MetroEventsEnum;
 import model.Metrocard;
 import model.database.loadSaveStrategies.LoadSaveStrategy;
 import model.database.loadSaveStrategies.LoadSaveStrategyFactory;
@@ -90,7 +91,12 @@ public class MetrocardDatabase implements Subject {
         mc.setId(id + 1);
         MetrocardList.put(MetrocardList.size() + 1, mc);
         System.out.println(observers);
-        notifyObservers();
+//        notifyObservers();
+    }
+
+    public void chargeMetrocard(int id, int addritten){
+        Metrocard m = MetrocardList.get(id);
+        m.setAantalBeschikbareRitten(m.getAantalBeschikbareRitten() + addritten);
     }
 
 
@@ -102,14 +108,19 @@ public class MetrocardDatabase implements Subject {
     }
 
     @Override
+    public void notifyObservers(MetroEventsEnum metroEventsEnum) throws Exception {
+
+    }
+
+    @Override
     public void registerObserver(Observer observer) {
         observers.add(observer);
 
     }
 
-    @Override
-    public void notifyObservers() {
-        observers.forEach(Observer::update);
-
-    }
+//    @Override
+//    public void notifyObservers() {
+//        observers.forEach(Observer::update);
+//
+//    }
 }

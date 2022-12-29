@@ -20,7 +20,7 @@ public class MetroMainBetter extends Application {
 
 		MetrocardDatabase mcdb = MetrocardDatabase.getMetrocardDatabase(format);
 		AdminView adminView = new AdminView(mcdb);
-		MetroTicketView metroTicketView = new MetroTicketView(mcdb);
+		MetroTicketView metroTicketView = new MetroTicketView();
 		MetroStationView metroStationView = new MetroStationView(mcdb);
 		}
 

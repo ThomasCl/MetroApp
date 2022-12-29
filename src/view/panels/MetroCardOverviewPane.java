@@ -1,6 +1,7 @@
 package view.panels;
 
 
+import controller.MetroCardOverviewPaneController;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.geometry.Insets;
@@ -18,13 +19,13 @@ import observer.Observer;
 
 
 public class MetroCardOverviewPane extends GridPane implements Observer {
-	private MetrocardDatabase mcDB;
+	private MetroCardOverviewPaneController controller;
 	private TableView<Metrocard> table ;
 	private ObservableList<Metrocard> metrocards;
 	
-	public MetroCardOverviewPane(MetrocardDatabase metrocardDatabase) {
-		this.mcDB = metrocardDatabase;
-		mcDB.registerObserver(this);
+	public MetroCardOverviewPane() {
+		this.controller = new MetroCardOverviewPaneController();
+		controller.registerObserver(this);
 		this.setPadding(new Insets(5, 5, 5, 5));
         this.setVgap(5);
         this.setHgap(5);
@@ -69,7 +70,7 @@ public class MetroCardOverviewPane extends GridPane implements Observer {
 
 	}
 	public void refresh(){
-		metrocards = FXCollections.observableArrayList(mcDB.getMetrocardList());
+		metrocards = FXCollections.observableArrayList(controller.getMetrocardList());
 		table.getColumns().clear();
 		table.getItems().clear();
 		table.setItems(metrocards);

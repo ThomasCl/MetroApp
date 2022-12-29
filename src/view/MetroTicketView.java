@@ -1,5 +1,6 @@
 package view;
 
+import controller.MetroTicketViewController;
 import javafx.scene.Group;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
@@ -16,19 +17,20 @@ import model.database.loadSaveStrategies.LoadSaveStrategyFactory;
 import view.panels.MetroCardOverviewPane;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
 
 
 public class MetroTicketView {
 	private Stage stage = new Stage();
 	private Button button;
-	MetrocardDatabase metrocardDatabase;
+	private MetroTicketViewController controller;
 
-	public MetroTicketView(MetrocardDatabase mcdb){
+	public MetroTicketView(){
+		this.controller = new MetroTicketViewController();
 		stage.setTitle("METROTICKET VIEW");
 		stage.initStyle(StageStyle.UTILITY);
 		stage.setX(5);
 		stage.setY(5);
-		metrocardDatabase = mcdb;
 
 
 
@@ -37,28 +39,6 @@ public class MetroTicketView {
 		button.setOnAction(e->new_mc());
 
 
-
-
-		VBox root = new VBox();
-		root.getChildren().addAll(button);
-
-
-		Scene scene = new Scene(root, 650, 350);
-		stage.setScene(scene);
-		stage.sizeToScene();			
-		stage.show();		
-	}
-
-
-	public void new_mc(){
-		metrocardDatabase.load();
-
-
-
-		Metrocard mc = new Metrocard(LocalDate.now().plusMonths(1).plusYears(1), 2,0);
-
-		metrocardDatabase.add(mc);
-		metrocardDatabase.save();
 
 
 
@@ -86,8 +66,8 @@ public class MetroTicketView {
 
 		Button add = new Button("Add extra rides to card");
 		add.setOnAction(e-> {
-//			String help = "";
-//			Metrocard metrocard = metrocardDatabase.getMetrocardList().get();
+			controller.chargeMetrocard(Integer.parseInt(String.valueOf(input_select_metro_card.getCharacters())), Integer.parseInt(String.valueOf(input_number_of_rides.getCharacters())));
+			controller.saveMCDB();
 		});
 
 		Label totalPrice = new Label("Total price");
@@ -97,12 +77,26 @@ public class MetroTicketView {
 
 
 
-		VBox root = new VBox();
+		VBox	 root = new VBox();
 		root.getChildren().addAll(button,mc_id,rides,student,age,add, totalPriceBox);
 
-		Scene scene = new Scene(root, 650, 350);
-		stage.setScene(scene);
+		Scene scene2 = new Scene(root, 650, 350);
+		stage.setScene(scene2);
 		stage.sizeToScene();
 		stage.show();
 	}
+
+
+	public void new_mc() {
+		controller.loadMCDB();
+
+
+		Metrocard mc = new Metrocard(LocalDate.now().plusMonths(1).plusYears(1), 2, 0);
+
+		controller.addMC(mc);
+		controller.saveMCDB();
+
+	}
+
+
 }

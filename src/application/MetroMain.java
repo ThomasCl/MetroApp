@@ -17,7 +17,7 @@ public class MetroMain extends Application {
 	public void start(Stage primaryStage) {
 		MetrocardDatabase mcdb = MetrocardDatabase.getMetrocardDatabase("excel");
 		AdminView adminView = new AdminView(mcdb);
-		MetroTicketView metroTicketView = new MetroTicketView(mcdb);
+		MetroTicketView metroTicketView = new MetroTicketView();
 		MetroStationView metroStationView = new MetroStationView(mcdb);
 
 	}

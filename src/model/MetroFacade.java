@@ -30,6 +30,23 @@ public class MetroFacade implements Subject {
         }
         return instance;
     }
+    public ArrayList<Metrocard> getMetrocardDB(){
+        return metroDB.getMetrocardList();
+    }
+
+    public void loadMCDB(){
+        metroDB.load();
+    }
+    public void saveMCDB(){
+        metroDB.save();
+    }
+    public void addMC(Metrocard mc){
+        metroDB.add(mc);
+    }
+
+    public void chargeMetrocard(int id, int addritten){
+        metroDB.chargeMetrocard(id,addritten);
+    }
 
     public void openMetroStation() {
         String format = SettingsDatabase.getSettingsDatabase().getProperty("format");

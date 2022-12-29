@@ -12,7 +12,7 @@ import view.panels.SettingsViewPane;
 public class AdminMainPane extends BorderPane {
 	public AdminMainPane(MetrocardDatabase mcdb){
 	    TabPane tabPane = new TabPane();
-        MetroCardOverviewPane metroCardOverviewPane = new MetroCardOverviewPane(mcdb);
+        MetroCardOverviewPane metroCardOverviewPane = new MetroCardOverviewPane( );
         ControlCenterViewPane controlCenterViewPane = new ControlCenterViewPane();
         SettingsViewPane settingsviewpane = new SettingsViewPane();
         Tab metroCardOverviewTab = new Tab("Metro cards overview",metroCardOverviewPane);
