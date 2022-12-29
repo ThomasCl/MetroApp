@@ -5,16 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63f45679-e0d3-45b2-b9d6-ea6dd0674c1f" name="Changes" comment="test">
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/ticketPriceDecorator/Age64PlusDiscount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/ticketPriceDecorator/BasicTicketPrice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/ticketPriceDecorator/ChristmasLeaveDiscount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/ticketPriceDecorator/FrequentTravellerDiscount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/ticketPriceDecorator/StudentDiscount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/ticketPriceDecorator/TicketPrice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/ticketPriceDecorator/TicketPriceDiscountEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/ticketPriceDecorator/TicketPriceDiscountInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/ticketPriceDecorator/TicketpriceFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
-    <list id="9f458c35-724a-413c-bbc9-ccf5fc2eb67f" name="Changes by Daniel Dierckx" comment="">
-      <change beforePath="$PROJECT_DIR$/src/model/MetroFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/MetroFacade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/observer/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/observer/Observer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/database/MetrocardDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/database/MetrocardDatabase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/observer/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/observer/Subject.java" afterDir="false" />
     </list>
-    <list id="dd0a27e9-9af2-427c-8860-e8e918e8fa43" name="Changes by Joren" comment="">
-      <change beforePath="$PROJECT_DIR$/src/model/MetroGate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/MetroGate.java" afterDir="false" />
-    </list>
+    <list id="dd0a27e9-9af2-427c-8860-e8e918e8fa43" name="Changes by Joren" comment="" />
     <list id="435fd92a-1c35-4b84-bb2f-41862a618931" name="Changes by simon" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,9 +32,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -45,11 +50,18 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/application/MetroMain.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/model/database/MetrocardDatabase.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/model/database/loadSaveStrategies/MetrocardsExcelLoadSaveStrategy.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/controller/MetroTicketViewController.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/view/AdminView.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/application/MetroMain.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/view/MetroTicketView.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/view/panels/SettingsViewPane.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/view/panels/MetroTicketViewPane.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/view/panels/MetroCardOverviewPane.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/controller/MetroStationViewController.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/controller/ControlCenterViewController.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/model/database/MetrocardDatabase.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/controller/SettingsViewController.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -62,20 +74,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "C:/Jaar 2-3/semester 1/OOO/cursus/headFirst_DesignPatterns_Code/observer/weather",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="codeWithMe.voiceChat.enabledByDefault" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="model.database.utilities" />
@@ -152,6 +162,8 @@
       <workItem from="1672218295270" duration="1652000" />
       <workItem from="1672221848065" duration="4142000" />
       <workItem from="1672234527385" duration="15113000" />
+      <workItem from="1672305266092" duration="7126000" />
+      <workItem from="1672318939088" duration="982000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1672148443007</created>
@@ -176,10 +188,25 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <option name="LAST_COMMIT_MESSAGE" value="test" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/model/MetroFacade.java</url>
+          <line>50</line>
+          <properties class="model.MetroFacade" method="notifyObservers">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
